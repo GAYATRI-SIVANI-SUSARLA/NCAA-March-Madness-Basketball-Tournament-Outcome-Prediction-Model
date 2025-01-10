@@ -9,5 +9,28 @@ Each season there are thousands of NCAA basketball games played between Division
 ### Kaggle Competition details 
 - Kaggle competition: [March Machine Learning Mania 2024](https://www.kaggle.com/competitions/march-machine-learning-mania-2024/overview)
 - Dataset: [Data to predict](https://www.kaggle.com/competitions/march-machine-learning-mania-2024/data)
-  You can also download by:
-  ```kaggle competitions download -c march-machine-learning-mania-2024```
+- You can also download by:
+  ```
+  kaggle competitions download -c march-machine-learning-mania-2024
+  ```
+### Libraries 
+  *** All Analytic Libraries used to predict the model in Python 3 environment:**
+  ```python
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import log_loss
+import sklearn
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.utils import to_categorical
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsClassifier
+
+```
