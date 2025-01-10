@@ -14,7 +14,7 @@ Each season there are thousands of NCAA basketball games played between Division
   kaggle competitions download -c march-machine-learning-mania-2024
   ```
 ### Libraries 
-  *** All Analytic Libraries used to predict the model in Python 3 environment:**
+  **All Analytic Libraries used to predict the model in Python 3 environment:**
   ```python
 import pandas as pd
 import numpy as np
@@ -34,3 +34,13 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 
 ```
+## Code
+- We used Logistic Regression, Random Forest, Gradient Boosting, and K-NN to predict models and attained some accuracies regarding the dataset.
+- The entire code with the result is already uploaded: **Code:** [March Machine learning Mania 2024](https://github.com/GAYATRI-SIVANI-SUSARLA/NCAA-March-Madness-Basketball-Tournament-Outcome-Prediction-Model/blob/main/march-machine-learning-mania-2024.ipynb)
+
+
+
+
+
+
+
